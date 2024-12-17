@@ -1,0 +1,142 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-size: cover;
+            
+            background-attachment: fixed;
+            color: #333;
+        }
+
+        /* Header */
+        h1,h2,h3,h4{
+            margin-left: 20px;
+        }
+        h1 {
+           
+            font-size: 36px;
+            color: #2E8B57;
+            margin-top: 50px;
+        }
+
+        /* Section titles */
+        h2 {
+            font-size: 28px;
+            color: #2E8B57;
+            
+            margin-top: 30px;
+            text-decoration: underline;
+        }
+
+        /* Customer Support Section */
+        .Customer_support {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+           margin-right: 50px;
+            flex-wrap: wrap;
+            color: #333;
+        }
+
+        .Customer_support p {
+            flex: 1;
+            font-size: 16px;
+            line-height: 1.8;
+            color: #333;
+        }
+
+        .Customer_support img {
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Support Channel Section */
+        .Support_chennel {
+            display: flex;
+           justify-content:space-around;
+            align-items: center;
+            margin-top: 50px;
+            gap: 30px;
+        }
+
+        .Support_chennel img {
+            max-width: 400px;
+            border-radius: 8px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .Support_chennel ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .Support_chennel li {
+            font-size: 16px;
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            color: #333;
+        }
+
+        .Support_chennel i {
+            margin-right: 10px;
+            color: #2E8B57;
+        }
+
+        /* Common Topics Section */
+        ul {
+            padding: 0;
+            list-style: none;
+            margin-top: 20px;
+            color: #333;
+            margin-left: 25px;
+            
+        }
+
+        ul li {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        /* Customer Testimonial Section */
+        .customer-testimonial {
+            font-style: italic;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 18px;
+            color: #333;
+            
+        }
+
+        .customer-testimonial em {
+            color: #2E8B57;
+            font-weight: bold;
+        }
+        p{
+            margin-left: 25px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .Customer_support {
+                flex-direction: column;
+                align-items: center;
+                margin: 20px;
+            }
+
+            .Customer_support img {
+                max-width: 80%;
+                margin-top: 20px;
+            }
+
+            .Support_chennel {
+                margin: 30px 0;
+            }
+
+            .Support_chennel ul li {
+                font-size: 14px;
+            }
+        }
